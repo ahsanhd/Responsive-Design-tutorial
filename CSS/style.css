@@ -1,0 +1,85 @@
+*, *::after,*::before{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+img{
+    width: 100%;
+}
+
+header{
+    background-color: #f3eed9;
+    padding: 9em;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.hero__text{
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.hero__title{
+    text-align: center;
+    font-size: 3.75rem;
+    color: #824936;
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1;
+}
+.primary__title{
+    color: #824936;
+    text-align: center;
+    font-size: 2.25rem;
+    padding: 2em 0;
+}
+.row{
+    display: flex;
+}
+.col{
+    width: 50%;
+}
+.col p{
+    font-size: 1.35rem;
+    line-height: 1.5;
+    padding-bottom: 3.5em;
+}
+.col + .col{
+    margin-left: 2em;
+}
+.green{
+    background-color: #222c2a;
+    padding: 3em;
+}
+.secondary__title{
+    color:#f3eed9 ;
+    font-size: 2.25rem;
+    
+}
+.secondary__text{
+    color: #f3eed9;
+    font-size: 1.35rem ;
+    margin-top: 1em;
+}
+.brown{
+    background-color: #824936;
+    padding: 3em;
+}
+.third__title{
+    color: #f3eed9;
+    font-size: 2.25rem;
+}
+.third__text{
+    color: #f3eed9;
+    margin-top: 1em;
+}
+@media (max-width : 900px){
+    .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
